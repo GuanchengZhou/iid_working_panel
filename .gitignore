@@ -1,0 +1,55 @@
+# Dependencies and generated builds
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Private application data, attachments, conversation snapshots and backups
+/data/
+/backups/
+/data.before-restore-*/
+.restore-*/
+/.qa/
+/tmp/
+/output/
+/outputs/
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+*.log
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+
+# Local reports and screenshots; public assets can live under src/assets/
+/验收记录.md
+/*.png
+/*.jpg
+/*.jpeg
+/*.webp
+/*.pdf
+*.docx
+*.xlsx
+
+# Credentials and per-machine configuration
+.env
+.env.*
+!.env.example
+*.local.*
+.local/
+.codex/
+.ssh/
+auth.json
+credentials.json
+*.pem
+*.key
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

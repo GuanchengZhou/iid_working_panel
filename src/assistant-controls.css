@@ -1,0 +1,61 @@
+.assistant-controls {
+  padding: 12px 18px;
+  border-bottom: 1px solid #e6eadf;
+  font-size: 11px;
+  background: #fbfcf8;
+  color: #7d8973;
+}
+.assistant-controls > div {
+  display: flex;
+  gap: 12px;
+}
+.assistant-controls label {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  flex: 1;
+  white-space: nowrap;
+}
+.assistant-controls select {
+  padding: 6px 7px;
+  border: 1px solid #dfe6d6;
+  border-radius: 5px;
+  background: white;
+  color: #53674a;
+  min-width: 0;
+  flex: 1;
+  font-size: 11px;
+  max-width: 140px;
+}
+.assistant-controls > small {
+  display: block;
+  margin-top: 9px;
+  color: #a0aa95;
+  line-height: 1.7;
+  font-size: 9px;
+}
+.assistant-import-results {
+  margin-top: 9px;
+  border-top: 1px solid #e1e7d7;
+  padding-top: 6px;
+}
+.assistant-import-results button {
+  background: none;
+  border: 0;
+  color: #728d5d;
+  text-align: left;
+  display: block;
+  margin-top: 6px;
+  font-size: 10px;
+}
+.assistant-import-results span {
+  color: #a68a60;
+  font-size: 10px;
+  line-height: 1.7;
+}
+.assistant-edit-note {
+  font-size: 10px;
+  color: #899878;
+  margin: 8px 0;
+  line-height: 1.7;
+}
